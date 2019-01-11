@@ -3,7 +3,6 @@ body
     font-family: 'Thasadith', sans-serif;
     margin: 0 auto;
     color: #fff;
-    
 }
 
 body #main-page
@@ -24,6 +23,7 @@ body #main-page #main-nav #navigation-list
     text-align: center;
     margin: 0 auto;
 }
+
 body #main-page #main-nav #navigation-list li
 {  
     width:80px;
@@ -35,12 +35,14 @@ body #main-page #main-nav #navigation-list li
     text-transform: uppercase;
     text-decoration: none;
 }
+
 body #main-page #main-nav #navigation-list li a
 {
     text-decoration: none;
     cursor: default;
     color: #fff;
 }
+
 body #main-page #main-nav #navigation-list li a::after
 {
     content: '';
@@ -92,7 +94,9 @@ body #main-page #learn-more a
     text-decoration: none;
     color: #fff;
     cursor: default;
+    border-bottom: 2px solid #a58d0f;
 }
+
 body #main-page #learn-more a::after
 {
     content: '';
@@ -103,6 +107,3 @@ body #main-page #learn-more a::after
     border-right: 2px solid #a58d0f;
     transition: 0.5s all;
 }
-
-
-
